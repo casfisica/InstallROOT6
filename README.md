@@ -80,5 +80,9 @@ make -j n
 
 ## Setup ROOT in your environment
 <par>
-  source /path/to/ROOTFolder/v6-22-00-patches/bin/thisroot.sh
+  Set the path to root
 </par>  
+
+```bash
+source /path/to/ROOTFolder/v6-22-00-patches/bin/thisroot.sh
+```
