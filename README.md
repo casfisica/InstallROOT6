@@ -10,7 +10,7 @@ ROOT requires several external libraries in order to properly run, then it is ma
 ```bash
 sudo apt-get update && sudo apt-get upgrade
 ```
-- Install Prerequisites
+Install Prerequisites
 
 ```bash
 apt-get install cmake git dpkg-dev make g++ gcc binutils libx11-dev libxpm-dev \
@@ -49,3 +49,36 @@ install.packages(c('Rcpp','RInside','C50','xgboost','e1071','RSNNS'))
 quit()
 ```
 
+<par>
+Install Python dependencies
+</par>
+
+```bash
+pip install scikit-learn numpy matplotlib scipy jupyter ipython metakernel
+```
+
+## Compile and setup 
+
+<par>
+  Set the last stable version. At the time this document was written the lates version is v6-22-00-patches
+</par>
+
+```bash
+git checkout v6-22-00-patches
+```
+
+<par>
+Create a new folder for the installation, and compile. At the last line the n is the number of cores.
+</par>
+
+```bash
+mkdir v6-20-00-patches 
+cd v6-20-00-patches
+cmake -Dr=ON -Dpython3=ON -Dhttp=ON ..
+make -j n
+```
+
+## Setup ROOT in your environment
+<par>
+  source /path/to/ROOTFolder/v6-22-00-patches/bin/thisroot.sh
+</par>  
