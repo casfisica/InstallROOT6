@@ -86,7 +86,10 @@ make -j n
 ```bash
 source ROOT_PATH/v6-22-00-patches/bin/thisroot.sh
 ```
+
+<par> 
 Setup the pyrootModules
+</par> 
 
 ```bash
 cd ROOT_PATH/v6-22-00-patches/etc/notebook/kernels/
