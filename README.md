@@ -84,5 +84,11 @@ make -j n
 </par>  
 
 ```bash
-source /path/to/ROOTFolder/v6-22-00-patches/bin/thisroot.sh
+source ROOT_PATH/v6-22-00-patches/bin/thisroot.sh
+```
+Setup the pyrootModules
+
+```bash
+cd ROOT_PATH/v6-22-00-patches/etc/notebook/kernels/
+jupyter kernelspec install root
 ```
