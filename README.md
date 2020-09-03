@@ -21,16 +21,6 @@ libldap2-dev python-dev libxml2-dev libkrb5-dev libgsl0-dev python3-pip \
 r-base r-base-dev gsl-bin libgsl-dev ocaml libz3-dev
 ```
 
-## Getting the code from github
-
-<par>
-Clone the code from the repository at GitHub
-</par>
-
-```bash
-git clone http://root.cern.ch/git/root.git
-```
-
 ## Getting External Dependencies (Optional)
 <par>
 R dependencies. First runn R
@@ -55,6 +45,17 @@ Install Python dependencies
 
 ```bash
 pip install scikit-learn numpy matplotlib scipy jupyter ipython metakernel
+```
+
+## Getting the code from github
+
+<par>
+Clone the code from the repository at GitHub
+</par>
+
+```bash
+git clone http://root.cern.ch/git/root.git
+cd root
 ```
 
 ## Compile and setup 
@@ -84,7 +85,10 @@ make -j n
 </par>  
 
 ```bash
-source ROOT_PATH/v6-22-00-patches/bin/thisroot.sh
+#source ROOT_PATH/v6-22-00-patches/bin/thisroot.sh
+ROOT_FOLDER_PATH=$(pwd)
+THISROOT_PATH="source "$ROOT_FOLDER_PATH"/bin/thisroot.sh"
+echo $THISROOT_PATH >> ~/.bashrc
 ```
 
 <par> 
@@ -92,6 +96,6 @@ Setup the pyrootModules
 </par> 
 
 ```bash
-cd ROOT_PATH/v6-22-00-patches/etc/notebook/kernels/
+cd $ROOT_PATH/v6-22-00-patches/etc/notebook/kernels/
 jupyter kernelspec install root
 ```
