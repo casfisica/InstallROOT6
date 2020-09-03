@@ -2,6 +2,8 @@
 
 ## Guide to install Cern root from surces at Debian based Linux
 
+<par> The [instal.sh](./install.sh) script is generated automatically with the following commands in this file. It can install all if there is not a dependence problem</par>
+
 <par>
 ROOT requires several external libraries in order to properly run, then it is mandatory to install them
 </par>
