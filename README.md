@@ -90,6 +90,7 @@ make -j 8
 ROOT_FOLDER_PATH=$(pwd)
 THISROOT_PATH="source "$ROOT_FOLDER_PATH"/bin/thisroot.sh"
 echo $THISROOT_PATH >> ~/.bashrc
+source ~/.bashrc
 ```
 
 <par> 
