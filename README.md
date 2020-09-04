@@ -71,14 +71,14 @@ git checkout v6-22-00-patches
 ```
 
 <par>
-Create a new folder for the installation, and compile. At the last line the n is the number of cores.
+Create a new folder for the installation, and compile. At the last line the 8 is the number of cores, you can change for yours.
 </par>
 
 ```bash
 mkdir v6-20-00-patches 
 cd v6-20-00-patches
 cmake -Dr=ON -Dpython3=ON -Dhttp=ON ..
-make -j n
+make -j 8
 ```
 
 ## Setup ROOT in your environment
@@ -87,7 +87,6 @@ make -j n
 </par>  
 
 ```bash
-#source ROOT_PATH/v6-22-00-patches/bin/thisroot.sh
 ROOT_FOLDER_PATH=$(pwd)
 THISROOT_PATH="source "$ROOT_FOLDER_PATH"/bin/thisroot.sh"
 echo $THISROOT_PATH >> ~/.bashrc
