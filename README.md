@@ -28,7 +28,7 @@ r-base r-base-dev gsl-bin libgsl-dev ocaml libz3-dev
 R dependencies. First runn R
 </par>
 
-```bash
+```
 R
 ```
 
@@ -36,7 +36,7 @@ R
 Inside the R terminal
 </par>
 
-```bash
+```
 install.packages(c('Rcpp','RInside','C50','xgboost','e1071','RSNNS'))
 quit()
 ```
