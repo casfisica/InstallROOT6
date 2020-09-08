@@ -98,6 +98,7 @@ Setup the pyrootModules
 </par> 
 
 ```bash
-cd $ROOT_PATH/v6-22-00-patches/etc/notebook/kernels/
+cd $ROOT_FOLDER_PATH/etc/notebook/kernels/
 jupyter kernelspec install root
+cd $ROOT_FOLDER_PATH
 ```
