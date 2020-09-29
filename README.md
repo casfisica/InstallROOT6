@@ -46,7 +46,7 @@ Install Python dependencies
 </par>
 
 ```bash
-pip install scikit-learn numpy matplotlib scipy jupyter ipython metakernel
+pip3 install scikit-learn numpy matplotlib scipy jupyter ipython metakernel
 ```
 
 ## Getting the code from github
