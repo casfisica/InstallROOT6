@@ -99,6 +99,6 @@ Setup the pyrootModules
 
 ```bash
 cd $ROOT_FOLDER_PATH/etc/notebook/kernels/
-jupyter kernelspec install root
+sudo jupyter kernelspec install root
 cd $ROOT_FOLDER_PATH
 ```
