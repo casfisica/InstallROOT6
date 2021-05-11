@@ -78,7 +78,10 @@ Create a new folder for the installation, and compile. At the last line the 8 is
 mkdir v6-20-00-patches 
 cd v6-20-00-patches
 cmake -Dr=ON -Dpython3=ON -Dhttp=ON ..
-make -j 8
+#Max threads
+make -j $(grep -c processor /proc/cpuinfo)
+#for single core or less than max use
+#make -j @ #Where @ is the number of cores 
 ```
 
 ## Setup ROOT in your environment
