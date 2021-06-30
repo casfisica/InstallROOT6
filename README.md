@@ -29,7 +29,7 @@ R dependencies. First runn R
 </par>
 
 ```
-R
+sudo R
 ```
 
 <par>
@@ -46,7 +46,7 @@ Install Python dependencies
 </par>
 
 ```bash
-pip3 install scikit-learn numpy matplotlib scipy jupyter ipython metakernel
+sudo pip3 install scikit-learn numpy matplotlib scipy jupyter ipython metakernel
 ```
 
 ## Getting the code from github
