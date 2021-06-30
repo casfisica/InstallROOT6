@@ -63,11 +63,11 @@ cd root
 ## Compile and setup 
 
 <par>
-  Set the last stable version. At the time this document was written the lates version is v6-22-00-patches
+  Set the last stable version. At the time of the last modification to this document the lates version was v6-24-00-patches
 </par>
 
 ```bash
-git checkout v6-22-00-patches
+git checkout v6-24-00-patches
 ```
 
 <par>
