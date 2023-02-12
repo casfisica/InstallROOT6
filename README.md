@@ -67,7 +67,7 @@ cd root
 </par>
 
 ```bash
-git checkout v6-24-00-patches
+git checkout v6-28-00-patches
 ```
 
 <par>
@@ -75,8 +75,8 @@ Create a new folder for the installation, and compile. At the last line the 8 is
 </par>
 
 ```bash
-mkdir v6-20-00-patches 
-cd v6-20-00-patches
+mkdir v6-28-00-patches
+cd v6-28-00-patches
 cmake -Dr=ON -Dpython3=ON -Dhttp=ON ..
 #Max threads
 make -j $(grep -c processor /proc/cpuinfo)
