@@ -56,6 +56,7 @@ Clone the code from the repository at GitHub
 </par>
 
 ```bash
+#git clone --branch latest-stable --depth=1 https://github.com/root-project/root.git
 git clone http://root.cern.ch/git/root.git
 cd root
 ```
