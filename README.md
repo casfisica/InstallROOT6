@@ -20,7 +20,7 @@ libxft-dev libxext-dev gfortran libssl-dev libpcre3-dev \
 xlibmesa-glu-dev libglew1.5-dev libftgl-dev \
 libfftw3-dev libcfitsio-dev graphviz-dev libavahi-compat-libdnssd-dev \
 libldap2-dev python3-dev libxml2-dev libkrb5-dev libgsl0-dev python3-pip \
-r-base r-base-dev gsl-bin libgsl-dev ocaml libz3-dev
+r-base r-base-dev gsl-bin libgsl-dev ocaml libz3-dev libxpm-dev libxft-dev
 ```
 
 ## Getting External Dependencies (Optional)
